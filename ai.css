@@ -35,6 +35,7 @@ p{
   color:white;
   border-radius:5px;
   width:75px;
+  height:auto;
   animation:slide-in 8s;
 }
 @keyframes slide-in{
@@ -47,16 +48,18 @@ p{
 }
 
 img{
-  height: 300px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
+  display: flex;
 }
 .spiral-image {
   position: relative;
-  width: 250px; /* adjust image size */
-  height: 300px;
+  width: 200px; /* adjust image size */
+  height:200px;
   border: 2px solid #007bff; /* spiral color */
   border-radius: 50%; /* circular shape */
   overflow: hidden;
+  display:flex;
 }
 
 .spiral-image::before {
@@ -82,4 +85,4 @@ img{
     border-top-color:blue;
     border-bottom-color: white;
   }
-}
+  }
